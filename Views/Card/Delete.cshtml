@@ -1,0 +1,16 @@
+@model Card
+
+<h2>Delete Card</h2>
+
+<p>Are you sure you want to delete the card <strong>@Model.Name</strong>?</p>
+<div>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Attack:</strong> @Model.AttackPoints | <strong>Defense:</strong> @Model.DefensePoints</p>
+    <img src="@Model.ImageUrl" alt="@Model.Name" style="width: 300px; border-radius: 5px;" />
+</div>
+
+<form method="post" asp-action="DeleteConfirmed" asp-route-id="@Model.Id">
+    <button type="submit" class="btn btn-danger" style="background-color: red; border-color: darkred;">Yes, Delete</button>
+    <a href="/Card/Index" class="btn btn-secondary" style="background-color: gray; border-color: darkgray;">Cancel</a>
+</form>
+

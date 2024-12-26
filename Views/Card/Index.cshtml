@@ -1,0 +1,30 @@
+@model List<Card>
+
+<h2>Yu-Gi-Oh Cards</h2>
+
+@if (Context.Session.GetString("Role") == "Admin")
+{
+    <a href="/Card/Create" class="btn btn-primary">Add New Card</a>
+}
+
+<div class="card-grid">
+    @foreach (var card in Model)
+    {
+        <div class="card">
+            <img src="@card.ImageUrl" alt="@card.Name" />
+            <h3>@card.Name</h3>
+            <p>@card.Description</p>
+            <p>Attack: @card.AttackPoints | Defense: @card.DefensePoints</p>
+
+            <form method="post" asp-action="AddToCart" asp-route-cardId="@card.Id">
+                <button class="btn btn-success" type="submit">Add to Cart</button>
+            </form>
+
+            @if (Context.Session.GetString("Role") == "Admin")
+            {
+                <a href="/Card/Edit/@card.Id" class="btn btn-warning">Edit</a>
+                <a href="/Card/Delete/@card.Id" class="btn btn-danger">Delete</a>
+            }
+        </div>
+    }
+</div>

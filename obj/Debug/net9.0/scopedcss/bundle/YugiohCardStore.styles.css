@@ -1,0 +1,49 @@
+/* _content/YugiohCardStore/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-uwubzv2svm] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-uwubzv2svm] {
+  color: #0077cc;
+}
+
+.btn-primary[b-uwubzv2svm] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-uwubzv2svm], .nav-pills .show > .nav-link[b-uwubzv2svm] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-uwubzv2svm] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-uwubzv2svm] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-uwubzv2svm] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-uwubzv2svm] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-uwubzv2svm] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

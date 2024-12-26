@@ -1,0 +1,31 @@
+@model Card
+
+<h2>Add New Card</h2>
+
+<form method="post" asp-action="Create" class="form-container">
+    <div class="form-group">
+        <label>Name:</label>
+        <input asp-for="Name" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Description:</label>
+        <textarea asp-for="Description" class="form-control" required></textarea>
+    </div>
+    <div class="form-group">
+        <label>Attack Points:</label>
+        <input asp-for="AttackPoints" type="number" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Defense Points:</label>
+        <input asp-for="DefensePoints" type="number" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Image URL:</label>
+        <input asp-for="ImageUrl" class="form-control" placeholder="Image URL" required />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-success" style="background-color: #28a745; border-color: #28a745;">Add Card</button>
+    <a href="/Card/Index" class="btn btn-secondary" style="background-color: #6c757d; border-color: #6c757d;">Cancel</a>
+</form>
+
+

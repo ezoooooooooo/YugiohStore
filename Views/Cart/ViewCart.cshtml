@@ -1,0 +1,56 @@
+@model List<CartItem>
+
+<h2>Your Cart</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Card Name</th>
+            <th>Quantity</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Card.Name</td>
+                <td>@item.Quantity</td>
+                <td>
+                    <form method="post" asp-action="RemoveFromCart" asp-route-id="@item.Id">
+                        <button type="submit" class="remove-btn">Remove</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: rgba(0, 0, 0, 0.7);
+        color: #FFD700;
+        margin-top: 20px;
+    }
+    th, td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #FFD700;
+    }
+    th {
+        background-color: #333;
+        color: #FFD700;
+    }
+    .remove-btn {
+        background-color: #FF4500;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .remove-btn:hover {
+        background-color: #FF6347;
+    }
+</style>

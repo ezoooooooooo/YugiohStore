@@ -1,0 +1,40 @@
+@model User
+
+
+<h2>Register New Account</h2>
+
+<form method="post" asp-action="Register">
+    <div>
+        <label>Username:</label>
+        <input asp-for="Username" required />
+    </div>
+     @if (ViewBag.UsernameError != null)
+    {
+        <div class="error">@ViewBag.UsernameError</div>
+    }
+
+    <div>
+        <label>Password:</label>
+        <input asp-for="Password" type="password" required />
+    </div>
+     @if (ViewBag.PasswordError != null)
+    {
+        <div class="error">@ViewBag.PasswordError</div>
+    }
+    @if (Context.Session.GetString("Role") == "Admin")
+    {
+        <div>
+            <label>Role:</label>
+            <select asp-for="Role">
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+            </select>
+        </div>
+    }
+    <button type="submit">Register</button>
+</form>
+
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+    <p style="color: red;">@ViewBag.Error</p>
+}

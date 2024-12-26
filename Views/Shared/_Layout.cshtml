@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yu-Gi-Oh Card Store</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/> 
+    
+    <style>
+
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #FFD700;
+            font-size: 1.2em;
+            margin-right: 15px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #FF4500;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: #FFD700;
+        }
+
+        .content {
+            padding: 20px;
+            min-height: 80vh;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="/">Home</a>
+            <a href="/Card/Index">Cards</a>
+            <a href="/Cart/ViewCart">Cart</a>
+        </div>
+        <div>
+            <a href="/Account/Login">Login</a>
+            <a href="/Account/Register">Register</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        @RenderBody()
+    </div>
+
+    <footer>
+        Yu-Gi-Oh Card Store &copy; @DateTime.Now.Year
+    </footer>
+    <script src="~/js/site.js"></script>
+
+</body>
+</html>
