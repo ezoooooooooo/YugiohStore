@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/ezoo/YugiohCardStore/wwwroot/images/b66d9802-2258-4c0f-acaa-96dec61d752b.jpg",
+      "PackagePath": "staticwebassets/images/b66d9802-2258-4c0f-acaa-96dec61d752b.jpg"
+    },
+    {
       "Id": "/home/ezoo/YugiohCardStore/wwwroot/images/blueEyes.png",
       "PackagePath": "staticwebassets/images/blueEyes.png"
     },

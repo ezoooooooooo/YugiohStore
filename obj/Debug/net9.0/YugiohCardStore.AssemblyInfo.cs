@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YugiohCardStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e972729d1b894dedd8d59c1d1d253833a1bc810f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c9197b24f26398082a7106a36acba9c26314672")]
 [assembly: System.Reflection.AssemblyProductAttribute("YugiohCardStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YugiohCardStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

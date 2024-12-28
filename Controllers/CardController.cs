@@ -27,21 +27,41 @@ public class CardController : Controller
     }
 
     [HttpPost]
-    public IActionResult Create(Card card)
+public IActionResult Create(Card card, IFormFile ImageFile)
+{
+    if (ImageFile != null && ImageFile.Length > 0)
     {
-        if (HttpContext.Session.GetString("Role") != "Admin")
+        // Define the path where the file will be saved
+        var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+        var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageFile.FileName);
+        var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+        // Ensure the folder exists
+        if (!Directory.Exists(uploadsFolder))
         {
-            return RedirectToAction("Index");
+            Directory.CreateDirectory(uploadsFolder);
         }
 
-        if (ModelState.IsValid)
+        // Save the file to the server
+        using (var stream = new FileStream(filePath, FileMode.Create))
         {
-            _context.Cards.Add(card);
-            _context.SaveChanges();
-            return RedirectToAction("Index");
+            ImageFile.CopyTo(stream);
         }
+
+        // Save the relative path in the database
+        card.ImageUrl = $"/images/{uniqueFileName}";
+    }
+    else
+    {
+        ModelState.AddModelError("ImageFile", "Image upload is required.");
         return View(card);
     }
+
+    _context.Cards.Add(card);
+    _context.SaveChanges();
+
+    return RedirectToAction("Index");
+}
 
     // EDIT: Admins only
     [HttpGet]

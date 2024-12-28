@@ -5,5 +5,6 @@ public class Card
     public required string Description { get; set; }
     public int AttackPoints { get; set; }
     public int DefensePoints { get; set; }
-    public required string ImageUrl { get; set; }
+    public string? ImageUrl { get; set; }
+
 }
