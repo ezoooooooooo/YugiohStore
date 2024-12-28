@@ -18,32 +18,60 @@ h2 {
 form {
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center the fields and button */
+  justify-content: center;
   max-width: 400px;
   margin: 20px auto;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.7);
   border: 2px solid #FFD700;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
 }
 
-.form-container {
-  max-width: 500px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-  color: #FFD700;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-label {
+form label {
   display: block;
   margin-bottom: 5px;
   color: #FFD700;
+  text-align: left;
+  width: 100%; /* Align labels to the left */
 }
+
+form input, form select, form button {
+  width: 100%; /* Make fields take up full width */
+  max-width: 350px; /* Set a max width for fields */
+  padding: 10px;
+  margin-bottom: 15px; /* Add spacing between fields and button */
+  border-radius: 5px;
+  border: 1px solid #FFD700;
+  background-color: #333;
+  color: #FFD700;
+  font-size: 16px;
+}
+
+form button {
+  width: auto; /* Button doesn't stretch across the form */
+  padding: 10px 20px; /* Add padding for a balanced size */
+  border: 2px solid #FFD700;
+  background-color: #FFD700;
+  color: #333;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+form button:hover {
+  background-color: #FF4500;
+  color: white;
+  transform: scale(1.1);
+}
+
+.error {
+  color: #FF4500;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
 
 input, textarea {
   width: 100%;

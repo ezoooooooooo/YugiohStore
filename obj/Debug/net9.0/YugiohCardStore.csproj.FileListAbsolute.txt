@@ -131,7 +131,6 @@
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/scopedcss/bundle/YugiohCardStore.styles.css
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/scopedcss/projectbundle/YugiohCardStore.bundle.scp.css
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/1s1piithic-61n19gt1b8.gz
-/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-8b26xuhfcw.gz
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/4vmy7stnfl-bqjiyaj88i.gz
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/63he8fiec3-c2jlpeoesf.gz
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/490vkypb69-erw9l3u2r3.gz
@@ -209,4 +208,6 @@
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/YugiohCardStore.genruntimeconfig.cache
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/ref/YugiohCardStore.dll
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/i5ytm9is2o-gt71g024bs.gz
-/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-cwcg20a7ur.gz
+/home/ezoo/YugiohCardStore/obj/Debug/net9.0/YugiohCardStore.sourcelink.json
+/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-i66l9jv61e.gz
+/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-qj7l4bzhnp.gz

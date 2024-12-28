@@ -4,11 +4,12 @@
 
 <h2>Login</h2>
 <form method="post" asp-action="Login">
-    <label>Username:</label>
-    <input type="text" name="username" required />
-    <label>Password:</label>
-    <input type="password" name="password" required />
-     @if (ViewBag.Error != null)
+    <label for="username">Username:</label>
+    <input id="username" type="text" name="username" required />
+    <label for="password">Password:</label>
+    <input id="password" type="password" name="password" required />
+    
+    @if (ViewBag.Error != null)
     {
         <div class="error">@ViewBag.Error</div>
     }

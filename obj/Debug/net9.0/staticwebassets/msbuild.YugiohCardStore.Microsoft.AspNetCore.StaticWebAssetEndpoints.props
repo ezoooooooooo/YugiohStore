@@ -15,14 +15,14 @@
     <StaticWebAssetEndpoint Include="_content/YugiohCardStore/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tLicGTOnRKqqpdEdnB9/q6HHW195A6Ds1sXG\u002BNIDeYY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3889"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022tLicGTOnRKqqpdEdnB9/q6HHW195A6Ds1sXG\u002BNIDeYY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 21:04:02 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ilexNb1qCo1ZY\u002Bi8MV3GiEenrHT0606SQ6qgZphYLd0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4763"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ilexNb1qCo1ZY\u002Bi8MV3GiEenrHT0606SQ6qgZphYLd0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Dec 2024 18:00:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/YugiohCardStore/css/site.cwcg20a7ur.css">
+    <StaticWebAssetEndpoint Include="_content/YugiohCardStore/css/site.i66l9jv61e.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cwcg20a7ur"},{"Name":"integrity","Value":"sha256-tLicGTOnRKqqpdEdnB9/q6HHW195A6Ds1sXG\u002BNIDeYY="},{"Name":"label","Value":"_content/YugiohCardStore/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3889"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022tLicGTOnRKqqpdEdnB9/q6HHW195A6Ds1sXG\u002BNIDeYY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 21:04:02 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i66l9jv61e"},{"Name":"integrity","Value":"sha256-ilexNb1qCo1ZY\u002Bi8MV3GiEenrHT0606SQ6qgZphYLd0="},{"Name":"label","Value":"_content/YugiohCardStore/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4763"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ilexNb1qCo1ZY\u002Bi8MV3GiEenrHT0606SQ6qgZphYLd0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Dec 2024 18:00:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/YugiohCardStore/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -84,17 +84,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t7z6gd3hjy"},{"Name":"integrity","Value":"sha256-yctztiMeIIUitkm8nfjqvYuAJvQDw\u002BOo6YO96URGUQc="},{"Name":"label","Value":"_content/YugiohCardStore/images/yu_gi_oh__gx___out_side_academy_bg_by_maxiuchiha22_dd6el1f.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"320457"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022yctztiMeIIUitkm8nfjqvYuAJvQDw\u002BOo6YO96URGUQc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 15:30:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/YugiohCardStore/js/site.8b26xuhfcw.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8b26xuhfcw"},{"Name":"integrity","Value":"sha256-NBqjGR4zydxoWr0n0gXhoMYPM8k5sXPtik816yvL5Iw="},{"Name":"label","Value":"_content/YugiohCardStore/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"431"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NBqjGR4zydxoWr0n0gXhoMYPM8k5sXPtik816yvL5Iw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 15:00:30 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/YugiohCardStore/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NBqjGR4zydxoWr0n0gXhoMYPM8k5sXPtik816yvL5Iw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"431"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NBqjGR4zydxoWr0n0gXhoMYPM8k5sXPtik816yvL5Iw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 15:00:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"607"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Dec 2024 18:05:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/YugiohCardStore/js/site.qj7l4bzhnp.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qj7l4bzhnp"},{"Name":"integrity","Value":"sha256-iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA="},{"Name":"label","Value":"_content/YugiohCardStore/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"607"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Dec 2024 18:05:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/YugiohCardStore/lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>
