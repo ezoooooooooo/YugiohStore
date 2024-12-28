@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EbmzQeWHqfzotgvKPe19VmP8VVuXMt2dAPVjr5RcH68=",
+  "Hash": "WmfwLyH/y30x19xhNPKVqh82xrE91h5i1CVXyb9xSQw=",
   "Source": "YugiohCardStore",
   "BasePath": "_content/YugiohCardStore",
   "Mode": "Default",
@@ -878,12 +878,12 @@
       "OriginalItemSpec": "/home/ezoo/YugiohCardStore/wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-qj7l4bzhnp.gz",
+      "Identity": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-bsx8gt7gj7.gz",
       "SourceId": "YugiohCardStore",
       "SourceType": "Discovered",
       "ContentRoot": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/YugiohCardStore",
-      "RelativePath": "js/site#[.{fingerprint=qj7l4bzhnp}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=bsx8gt7gj7}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -892,8 +892,8 @@
       "RelatedAsset": "/home/ezoo/YugiohCardStore/wwwroot/js/site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zrdj5gxsur",
-      "Integrity": "f0EiUuorSYIknVCDL711qVnhJkcaXDh5zXLZbtiSOro=",
+      "Fingerprint": "xa8e22ycf7",
+      "Integrity": "dzSXzx8vpYj1AP0ozhTYBLgTeyWrUad87VzQjWGdqls=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/ezoo/YugiohCardStore/wwwroot/js/site.js"
@@ -1585,8 +1585,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qj7l4bzhnp",
-      "Integrity": "iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA=",
+      "Fingerprint": "bsx8gt7gj7",
+      "Integrity": "9Y5O9GOWmpGkgd/92ivnBr+BaudMKniD9SMrgbIqM8s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
@@ -4076,13 +4076,13 @@
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-qj7l4bzhnp.gz",
+      "Route": "js/site.bsx8gt7gj7.js",
+      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-bsx8gt7gj7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003460207612"
+          "Quality": "0.001312335958"
         }
       ],
       "ResponseHeaders": [
@@ -4092,19 +4092,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "288"
+          "Value": "761"
         },
         {
           "Name": "ETag",
-          "Value": "\"f0EiUuorSYIknVCDL711qVnhJkcaXDh5zXLZbtiSOro=\""
+          "Value": "\"dzSXzx8vpYj1AP0ozhTYBLgTeyWrUad87VzQjWGdqls=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:05:23 GMT"
+          "Value": "Sat, 28 Dec 2024 18:12:52 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -4120,18 +4120,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA=\""
+          "Value": "W/\"9Y5O9GOWmpGkgd/92ivnBr+BaudMKniD9SMrgbIqM8s=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "bsx8gt7gj7"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA="
+          "Value": "sha256-9Y5O9GOWmpGkgd/92ivnBr+BaudMKniD9SMrgbIqM8s="
         }
       ]
     },
     {
-      "Route": "js/site.js",
+      "Route": "js/site.bsx8gt7gj7.js",
       "AssetFile": "/home/ezoo/YugiohCardStore/wwwroot/js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4141,7 +4149,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "607"
+          "Value": "2442"
         },
         {
           "Name": "Content-Type",
@@ -4149,121 +4157,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA=\""
+          "Value": "\"9Y5O9GOWmpGkgd/92ivnBr+BaudMKniD9SMrgbIqM8s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:05:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js.gz",
-      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-qj7l4bzhnp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "288"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"f0EiUuorSYIknVCDL711qVnhJkcaXDh5zXLZbtiSOro=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:05:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-f0EiUuorSYIknVCDL711qVnhJkcaXDh5zXLZbtiSOro="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.qj7l4bzhnp.js",
-      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-qj7l4bzhnp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003460207612"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "288"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"f0EiUuorSYIknVCDL711qVnhJkcaXDh5zXLZbtiSOro=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:05:23 GMT"
+          "Value": "Sat, 28 Dec 2024 18:12:52 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qj7l4bzhnp"
+          "Value": "bsx8gt7gj7"
         },
         {
           "Name": "label",
@@ -4271,13 +4179,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA="
+          "Value": "sha256-9Y5O9GOWmpGkgd/92ivnBr+BaudMKniD9SMrgbIqM8s="
         }
       ]
     },
     {
-      "Route": "js/site.qj7l4bzhnp.js",
-      "AssetFile": "/home/ezoo/YugiohCardStore/wwwroot/js/site.js",
+      "Route": "js/site.bsx8gt7gj7.js.gz",
+      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-bsx8gt7gj7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4286,7 +4194,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "607"
+          "Value": "761"
         },
         {
           "Name": "Content-Type",
@@ -4294,56 +4202,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA=\""
+          "Value": "\"dzSXzx8vpYj1AP0ozhTYBLgTeyWrUad87VzQjWGdqls=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:05:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qj7l4bzhnp"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-iuaoCm0MkYLFpieToHSiijc/ApYQ58o329JH9Nj8woA="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.qj7l4bzhnp.js.gz",
-      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-qj7l4bzhnp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "288"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"f0EiUuorSYIknVCDL711qVnhJkcaXDh5zXLZbtiSOro=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:05:23 GMT"
+          "Value": "Sat, 28 Dec 2024 18:12:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4361,7 +4224,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qj7l4bzhnp"
+          "Value": "bsx8gt7gj7"
         },
         {
           "Name": "label",
@@ -4369,7 +4232,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-f0EiUuorSYIknVCDL711qVnhJkcaXDh5zXLZbtiSOro="
+          "Value": "sha256-dzSXzx8vpYj1AP0ozhTYBLgTeyWrUad87VzQjWGdqls="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-bsx8gt7gj7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001312335958"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "761"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dzSXzx8vpYj1AP0ozhTYBLgTeyWrUad87VzQjWGdqls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 18:12:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9Y5O9GOWmpGkgd/92ivnBr+BaudMKniD9SMrgbIqM8s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Y5O9GOWmpGkgd/92ivnBr+BaudMKniD9SMrgbIqM8s="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "/home/ezoo/YugiohCardStore/wwwroot/js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Y5O9GOWmpGkgd/92ivnBr+BaudMKniD9SMrgbIqM8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 18:12:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Y5O9GOWmpGkgd/92ivnBr+BaudMKniD9SMrgbIqM8s="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-bsx8gt7gj7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dzSXzx8vpYj1AP0ozhTYBLgTeyWrUad87VzQjWGdqls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 18:12:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dzSXzx8vpYj1AP0ozhTYBLgTeyWrUad87VzQjWGdqls="
         }
       ]
     },

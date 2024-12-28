@@ -210,4 +210,4 @@
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/i5ytm9is2o-gt71g024bs.gz
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/YugiohCardStore.sourcelink.json
 /home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-i66l9jv61e.gz
-/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-qj7l4bzhnp.gz
+/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/ixahlc5oiu-bsx8gt7gj7.gz

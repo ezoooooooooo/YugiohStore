@@ -5,37 +5,32 @@
 <form method="post" asp-action="Register">
     <div>
         <label for="username">Username:</label>
-        <input id="username" asp-for="Username" required />
+        <input asp-for="Username" name="Username" id="username" required />
         @if (ViewBag.UsernameError != null)
         {
             <div class="error">@ViewBag.UsernameError</div>
         }
     </div>
-    
+
     <div>
         <label for="password">Password:</label>
-        <input id="password" asp-for="Password" type="password" required />
+        <input asp-for="Password" name="Password" id="password" type="password" required />
         @if (ViewBag.PasswordError != null)
         {
             <div class="error">@ViewBag.PasswordError</div>
         }
     </div>
 
-    @if (Context.Session.GetString("Role") == "Admin")
-    {
-        <div>
+    <div>
+        @if (Context.Session.GetString("Role") == "Admin")
+        {
             <label for="role">Role:</label>
-            <select id="role" asp-for="Role">
+            <select asp-for="Role" id="role">
                 <option value="User">User</option>
                 <option value="Admin">Admin</option>
             </select>
-        </div>
-    }
+        }
+    </div>
 
     <button type="submit">Register</button>
 </form>
-
-@if (!string.IsNullOrEmpty(ViewBag.Error))
-{
-    <p class="error">@ViewBag.Error</p>
-}
