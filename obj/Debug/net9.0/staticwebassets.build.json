@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8bmoIxrk9tJ9aaq4M/AFdvZS3v1DgWkDenx3bUmjqWM=",
+  "Hash": "PKKv96rWAH1znyT5k19+eDHwmLagQmsDF5ECIwNLuNs=",
   "Source": "YugiohCardStore",
   "BasePath": "_content/YugiohCardStore",
   "Mode": "Default",
@@ -395,12 +395,12 @@
       "OriginalItemSpec": "/home/ezoo/YugiohCardStore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-rdsueci60t.gz",
+      "Identity": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-qze9erkwom.gz",
       "SourceId": "YugiohCardStore",
       "SourceType": "Discovered",
       "ContentRoot": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/YugiohCardStore",
-      "RelativePath": "css/site#[.{fingerprint=rdsueci60t}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=qze9erkwom}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -409,8 +409,8 @@
       "RelatedAsset": "/home/ezoo/YugiohCardStore/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6tbd9v1spc",
-      "Integrity": "9u1eqf7n73OWAGm+rNpRWo44nv0W+TCnYmzmW0RcBio=",
+      "Fingerprint": "fzy30k52lb",
+      "Integrity": "23PA51pizgsjprTn8ozONx535H9J6gYf61OttkUj3x0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/ezoo/YugiohCardStore/wwwroot/css/site.css"
@@ -1459,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rdsueci60t",
-      "Integrity": "0fZKr1A8xCvE3Wts51xx4ENldOO+DCQvEXJ8HJoiRjU=",
+      "Fingerprint": "qze9erkwom",
+      "Integrity": "Jg7CwGRAYLY0UzUSczTqTuNDR4dn8MhUV7CRmPbQEtU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -3174,12 +3174,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-rdsueci60t.gz",
+      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-qze9erkwom.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000669792364"
+          "Quality": "0.000629326621"
         }
       ],
       "ResponseHeaders": [
@@ -3189,15 +3189,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1492"
+          "Value": "1588"
         },
         {
           "Name": "ETag",
-          "Value": "\"9u1eqf7n73OWAGm+rNpRWo44nv0W+TCnYmzmW0RcBio=\""
+          "Value": "\"23PA51pizgsjprTn8ozONx535H9J6gYf61OttkUj3x0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:44:16 GMT"
+          "Value": "Sat, 28 Dec 2024 18:52:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3217,13 +3217,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0fZKr1A8xCvE3Wts51xx4ENldOO+DCQvEXJ8HJoiRjU=\""
+          "Value": "W/\"Jg7CwGRAYLY0UzUSczTqTuNDR4dn8MhUV7CRmPbQEtU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0fZKr1A8xCvE3Wts51xx4ENldOO+DCQvEXJ8HJoiRjU="
+          "Value": "sha256-Jg7CwGRAYLY0UzUSczTqTuNDR4dn8MhUV7CRmPbQEtU="
         }
       ]
     },
@@ -3238,7 +3238,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5030"
+          "Value": "5518"
         },
         {
           "Name": "Content-Type",
@@ -3246,11 +3246,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0fZKr1A8xCvE3Wts51xx4ENldOO+DCQvEXJ8HJoiRjU=\""
+          "Value": "\"Jg7CwGRAYLY0UzUSczTqTuNDR4dn8MhUV7CRmPbQEtU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:44:16 GMT"
+          "Value": "Sat, 28 Dec 2024 18:52:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3260,13 +3260,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0fZKr1A8xCvE3Wts51xx4ENldOO+DCQvEXJ8HJoiRjU="
+          "Value": "sha256-Jg7CwGRAYLY0UzUSczTqTuNDR4dn8MhUV7CRmPbQEtU="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-rdsueci60t.gz",
+      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-qze9erkwom.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3275,7 +3275,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1492"
+          "Value": "1588"
         },
         {
           "Name": "Content-Type",
@@ -3283,11 +3283,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9u1eqf7n73OWAGm+rNpRWo44nv0W+TCnYmzmW0RcBio=\""
+          "Value": "\"23PA51pizgsjprTn8ozONx535H9J6gYf61OttkUj3x0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:44:16 GMT"
+          "Value": "Sat, 28 Dec 2024 18:52:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3305,18 +3305,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9u1eqf7n73OWAGm+rNpRWo44nv0W+TCnYmzmW0RcBio="
+          "Value": "sha256-23PA51pizgsjprTn8ozONx535H9J6gYf61OttkUj3x0="
         }
       ]
     },
     {
-      "Route": "css/site.rdsueci60t.css",
-      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-rdsueci60t.gz",
+      "Route": "css/site.qze9erkwom.css",
+      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-qze9erkwom.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000669792364"
+          "Quality": "0.000629326621"
         }
       ],
       "ResponseHeaders": [
@@ -3326,15 +3326,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1492"
+          "Value": "1588"
         },
         {
           "Name": "ETag",
-          "Value": "\"9u1eqf7n73OWAGm+rNpRWo44nv0W+TCnYmzmW0RcBio=\""
+          "Value": "\"23PA51pizgsjprTn8ozONx535H9J6gYf61OttkUj3x0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:44:16 GMT"
+          "Value": "Sat, 28 Dec 2024 18:52:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3354,13 +3354,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0fZKr1A8xCvE3Wts51xx4ENldOO+DCQvEXJ8HJoiRjU=\""
+          "Value": "W/\"Jg7CwGRAYLY0UzUSczTqTuNDR4dn8MhUV7CRmPbQEtU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rdsueci60t"
+          "Value": "qze9erkwom"
         },
         {
           "Name": "label",
@@ -3368,12 +3368,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0fZKr1A8xCvE3Wts51xx4ENldOO+DCQvEXJ8HJoiRjU="
+          "Value": "sha256-Jg7CwGRAYLY0UzUSczTqTuNDR4dn8MhUV7CRmPbQEtU="
         }
       ]
     },
     {
-      "Route": "css/site.rdsueci60t.css",
+      "Route": "css/site.qze9erkwom.css",
       "AssetFile": "/home/ezoo/YugiohCardStore/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3383,7 +3383,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5030"
+          "Value": "5518"
         },
         {
           "Name": "Content-Type",
@@ -3391,11 +3391,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0fZKr1A8xCvE3Wts51xx4ENldOO+DCQvEXJ8HJoiRjU=\""
+          "Value": "\"Jg7CwGRAYLY0UzUSczTqTuNDR4dn8MhUV7CRmPbQEtU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:44:16 GMT"
+          "Value": "Sat, 28 Dec 2024 18:52:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3405,7 +3405,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rdsueci60t"
+          "Value": "qze9erkwom"
         },
         {
           "Name": "label",
@@ -3413,13 +3413,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0fZKr1A8xCvE3Wts51xx4ENldOO+DCQvEXJ8HJoiRjU="
+          "Value": "sha256-Jg7CwGRAYLY0UzUSczTqTuNDR4dn8MhUV7CRmPbQEtU="
         }
       ]
     },
     {
-      "Route": "css/site.rdsueci60t.css.gz",
-      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-rdsueci60t.gz",
+      "Route": "css/site.qze9erkwom.css.gz",
+      "AssetFile": "/home/ezoo/YugiohCardStore/obj/Debug/net9.0/compressed/8ad2g4te7d-qze9erkwom.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3428,7 +3428,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1492"
+          "Value": "1588"
         },
         {
           "Name": "Content-Type",
@@ -3436,11 +3436,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9u1eqf7n73OWAGm+rNpRWo44nv0W+TCnYmzmW0RcBio=\""
+          "Value": "\"23PA51pizgsjprTn8ozONx535H9J6gYf61OttkUj3x0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 18:44:16 GMT"
+          "Value": "Sat, 28 Dec 2024 18:52:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3458,7 +3458,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rdsueci60t"
+          "Value": "qze9erkwom"
         },
         {
           "Name": "label",
@@ -3466,7 +3466,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9u1eqf7n73OWAGm+rNpRWo44nv0W+TCnYmzmW0RcBio="
+          "Value": "sha256-23PA51pizgsjprTn8ozONx535H9J6gYf61OttkUj3x0="
         }
       ]
     },

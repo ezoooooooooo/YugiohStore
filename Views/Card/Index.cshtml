@@ -11,20 +11,29 @@
     @foreach (var card in Model)
     {
         <div class="card">
-            <img src="@card.ImageUrl" alt="@card.Name" />
-            <h3>@card.Name</h3>
-            <p>@card.Description</p>
-            <p>Attack: @card.AttackPoints | Defense: @card.DefensePoints</p>
+            <div class="card-info">
+                <div>
+                    <h3>@card.Name</h3>
+                    <p>@card.Description</p>
+                    <p class="card-stats">Attack: @card.AttackPoints | Defense: @card.DefensePoints</p>
+                </div>
+                <div class="card-buttons">
+                    <form method="post" asp-action="AddToCart" asp-route-cardId="@card.Id">
+                        <button class="btn btn-success" type="submit">Add to Cart</button>
+                    </form>
 
-            <form method="post" asp-action="AddToCart" asp-route-cardId="@card.Id">
-                <button class="btn btn-success" type="submit">Add to Cart</button>
-            </form>
-
-            @if (Context.Session.GetString("Role") == "Admin")
-            {
-                <a href="/Card/Edit/@card.Id" class="btn btn-warning">Edit</a>
-                <a href="/Card/Delete/@card.Id" class="btn btn-danger">Delete</a>
-            }
+                    @if (Context.Session.GetString("Role") == "Admin")
+                    {
+                        <div class="admin-buttons">
+                            <a href="/Card/Edit/@card.Id" class="btn btn-warning">Edit</a>
+                            <a href="/Card/Delete/@card.Id" class="btn btn-danger">Delete</a>
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="card-image-container">
+                <img src="@card.ImageUrl" alt="@card.Name" />
+            </div>
         </div>
     }
 </div>
